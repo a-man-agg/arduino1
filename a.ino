@@ -35,4 +35,4 @@ void loop()
    a->sensVal=analogRead(a->sensor);
    Serial.println(a->sensVal);
    a->led();
-}
+
